@@ -9,6 +9,6 @@ package holaMundoConCapas.view;
  *
  * @author 2dam
  */
-public class ViewImplementation implements View{
+public interface View {
     
 }
