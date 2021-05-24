@@ -10,5 +10,8 @@ package holaMundoConCapas.model;
  * @author 2dam
  */
 public class ModelFactory {
+    public void getModel(){
+    
+    }
     
 }

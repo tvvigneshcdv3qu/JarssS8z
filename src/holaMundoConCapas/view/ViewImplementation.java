@@ -10,5 +10,8 @@ package holaMundoConCapas.view;
  * @author 2dam
  */
 public class ViewImplementation implements View{
-    
+
+       public void showGreeting(String greeting){
+        System.out.println(greeting);
+    }
 }

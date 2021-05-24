@@ -10,5 +10,8 @@ package holaMundoConCapas.model;
  * @author 2dam
  */
 public class ModelImplementation implements Model{
-    
+    public String getGreeting(){
+        String greet="Hola Mundo";
+        return greet;
+    }
 }

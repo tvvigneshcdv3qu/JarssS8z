@@ -10,5 +10,12 @@ package holaMundoConCapas.controler;
  * @author 2dam
  */
 public class Controller {
+    public void run(){
+        String greeting="";
+        holaMundoConCapas.model.ModelImplementation modelo=new holaMundoConCapas.model.ModelImplementation();
+        holaMundoConCapas.view.ViewImplementation vista=new holaMundoConCapas.view.ViewImplementation();
+        greeting=modelo.getGreeting();
+        vista.showGreeting(greeting);
+    }
     
 }
