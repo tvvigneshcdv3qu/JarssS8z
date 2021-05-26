@@ -10,8 +10,7 @@ package holaMundoConCapas.view;
  * @author 2dam
  */
 public class ViewFactory {
-    public void getView(){
-    
-    
+    public static View getView(){
+        return new ViewImplementation();
     }
 }

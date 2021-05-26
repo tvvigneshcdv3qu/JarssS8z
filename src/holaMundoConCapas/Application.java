@@ -5,14 +5,19 @@
  */
 package holaMundoConCapas;
 
+import holaMundoConCapas.controler.Controller;
+import holaMundoConCapas.model.ModelFactory;
+import holaMundoConCapas.view.ViewFactory;
+
 /**
  *
  * @author 2dam
  */
 public class Application {
     public static void main(String[]args){
-        holaMundoConCapas.controler.Controller controlador=new holaMundoConCapas.controler.Controller();
-        controlador.run();
+        Controller controlador=
+                new Controller();
+        controlador.run(ViewFactory.getView(), ModelFactory.getModel());
     }
     
 }

@@ -5,15 +5,16 @@
  */
 package holaMundoConCapas.controler;
 
+import holaMundoConCapas.model.Model;
+import holaMundoConCapas.view.View;
+
 /**
  *
  * @author 2dam
  */
 public class Controller {
-    public void run(){
+    public void run(View vista,Model modelo){
         String greeting="";
-        holaMundoConCapas.model.ModelImplementation modelo=new holaMundoConCapas.model.ModelImplementation();
-        holaMundoConCapas.view.ViewImplementation vista=new holaMundoConCapas.view.ViewImplementation();
         greeting=modelo.getGreeting();
         vista.showGreeting(greeting);
     }
