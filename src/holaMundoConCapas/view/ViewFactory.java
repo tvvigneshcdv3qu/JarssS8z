@@ -12,5 +12,6 @@ package holaMundoConCapas.view;
 public class ViewFactory {
     public static View getView(){
         return new ViewImplementation();
+        
     }
 }

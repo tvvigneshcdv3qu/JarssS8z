@@ -5,16 +5,24 @@
  */
 package holaMundoConCapas.model;
 
+
+import java.util.ResourceBundle;
+
 /**
  *
  * @author 2dam
  */
+public class FailModelImplementation implements Model{
 
-public class ModelImplementation implements Model{
-    
     @Override
-    public String getGreeting(){
-        String greet="Hola Mundo";
+    public String getGreeting() {
+       
+        String greet=ResourceBundle.getBundle("holaMundoConCapas.model.Properties").getString("greeting");
+        
+        
         return greet;
+        
+                
     }
+    
 }

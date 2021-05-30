@@ -11,7 +11,8 @@ package holaMundoConCapas.model;
  */
 public class ModelFactory {
     public static Model getModel(){
-        return new ModelImplementation();
+        //return new ModelImplementation();
+        return new FailModelImplementation();
     }
     
 }
