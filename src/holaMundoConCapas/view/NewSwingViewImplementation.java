@@ -5,14 +5,14 @@
  */
 package holaMundoConCapas.view;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 2dam
  */
-public class ViewFactory {
-    public static View getView(){
-        //return new ViewImplementation();
-        return new NewSwingViewImplementation();
-        
+public class NewSwingViewImplementation implements View{
+     public void showGreeting(String greeting){
+         JOptionPane.showMessageDialog(null, greeting);
     }
 }
