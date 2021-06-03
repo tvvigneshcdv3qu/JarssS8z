@@ -9,9 +9,12 @@ package holaMundoConCapas.view;
  *
  * @author 2dam
  */
-public class ViewImplementation implements View{
-
-       public void showGreeting(String greeting){
+public class ViewImplementation implements View {
+    /**
+     * The method shows the greet into the console
+     * @param greeting 
+     */
+    public void showGreeting(String greeting) {
         System.out.println(greeting);
     }
 }

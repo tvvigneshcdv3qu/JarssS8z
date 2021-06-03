@@ -14,9 +14,7 @@ import static org.junit.Assert.*;
  * @author 2dam
  */
 public class ViewFactoryTest {
-    
-    public ViewFactoryTest() {
-    }
+  
 
     /**
      * Test of getView method, of class ViewFactory.

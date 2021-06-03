@@ -7,12 +7,17 @@ package holaMundoConCapas.view;
 
 /**
  *
- * @author 2dam
+ * @author adrian
  */
 public class ViewFactory {
+    /**
+     * Sent a new view implementation/ new swing view implementation
+     * @return a view 
+     */
     public static View getView(){
         //return new ViewImplementation();
-        return new NewSwingViewImplementation();
+        //return new NewSwingViewImplementation();
+        return new JavaFXViewImplementation();
         
     }
 }

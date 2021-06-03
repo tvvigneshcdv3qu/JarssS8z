@@ -10,10 +10,13 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author 2dam
+ * @author adrian
  */
 public class FailModelImplementation implements Model{
-
+    /**
+     * Give me the greet
+     * @return the greet
+     */
     @Override
     public String getGreeting() {
        
