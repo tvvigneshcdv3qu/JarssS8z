@@ -21,7 +21,7 @@ public class FailModelImplementationTest {
     public void testGetGreeting() {
         FailModelImplementation instance = new FailModelImplementation();
         String result = instance.getGreeting();
-        assertEquals("\"Hola Mundo con propiedades\"", result);
+        assertEquals("Hola Mundo con propiedades", result);
         
     }
     

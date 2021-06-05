@@ -33,7 +33,7 @@ public class FXMLDocumentController {
 
     @FXML
     private void onClose(ActionEvent event) {
-        Platform.exit();
+        textoPositivo.setText(greeting+greeting);
     }
 
     public void setGreeting(String greeting) {
