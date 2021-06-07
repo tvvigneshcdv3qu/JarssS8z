@@ -10,10 +10,14 @@ import holaMundoConCapas.model.ModelFactory;
 import holaMundoConCapas.view.ViewFactory;
 
 /**
- *
- * @author 2dam
+ * That class start our Application launcher
+ * @author adrian corral
  */
 public class Application {
+    /**
+     * Class main who creates the object controller and executes his method run
+     * @param args 
+     */
     public static void main(String[]args){
         Controller controlador=
                 new Controller();

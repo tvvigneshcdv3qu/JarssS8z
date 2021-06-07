@@ -9,8 +9,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author 2dam
+ *  Test class for the FailModelImplementation
+ * @author Adrian Corral
  */
 public class FailModelImplementationTest {
 

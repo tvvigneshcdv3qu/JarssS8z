@@ -10,6 +10,10 @@ package holaMundoConCapas.model;
  * @author 2dam
  */
 public class ModelFactory {
+    /**
+     * Return a new model implementation 
+     * @return a model class
+     */
     public static Model getModel(){
         //return new ModelImplementation();
         return new FailModelImplementation();

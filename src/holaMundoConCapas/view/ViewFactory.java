@@ -7,7 +7,7 @@ package holaMundoConCapas.view;
 
 /**
  *
- * @author adrian
+ * @author adrian corral
  */
 public class ViewFactory {
     /**

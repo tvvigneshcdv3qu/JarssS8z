@@ -6,6 +6,7 @@
 package holaMundoConCapas.view;
 
 import java.io.IOException;
+import java.util.logging.Logger;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,12 +18,13 @@ import javafx.stage.Stage;
  * @author 2dam
  */
 public class JavaFXViewImplementation extends Application implements View {
-
+    private static final Logger LOGGER=Logger.getLogger("holaMundoConCapas.view.JavaFXViewImplementation"); 
     private String greeting;
 
     @Override
     public void start(Stage stage) {
         try {
+            LOGGER.info("Start method start JavaFX");
             FXMLLoader loader = new FXMLLoader(getClass().getResource("vista.fxml"));
             Parent root = loader.load();
             FXMLDocumentController viewController = ((FXMLDocumentController) loader.getController());
@@ -30,9 +32,11 @@ public class JavaFXViewImplementation extends Application implements View {
             viewController.setStage(stage);
             viewController.initStage(root);
             //stage.setOnShowing(FXMLDocumentController::onWindowShowing);
-
-        } catch (IOException ex) {
+            LOGGER.info("Ending method start JavaFX");
+            
+        } catch (Exception ex) {
             ex.printStackTrace();
+            LOGGER.severe(ex.getMessage());
         }
     }
 

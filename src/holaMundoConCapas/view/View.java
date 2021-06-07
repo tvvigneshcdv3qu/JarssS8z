@@ -6,9 +6,13 @@
 package holaMundoConCapas.view;
 
 /**
- *
- * @author 2dam
+ *  Creation of the interface view
+ * @author Adrian Corral
  */
 public interface View {
+     /**
+     * Declarecion of the view implementation methods in this case shows the greeting
+     * @param greeting
+     */
    public void showGreeting(String greeting);
 }

@@ -7,8 +7,12 @@ package holaMundoConCapas.model;
 
 /**
  *
- * @author 2dam
+ * @author Adrian Corral
  */
 public interface Model{
+    /**
+     * Declarecion of the model implementation methods in this case get the greeting
+     * @return greet
+     */
     public String getGreeting();
 }

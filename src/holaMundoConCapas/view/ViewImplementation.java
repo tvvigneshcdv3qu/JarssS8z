@@ -6,8 +6,8 @@
 package holaMundoConCapas.view;
 
 /**
- *
- * @author 2dam
+ * This class implements the interface View
+ * @author Adrian Corral
  */
 public class ViewImplementation implements View {
     /**

@@ -11,7 +11,10 @@ package holaMundoConCapas.model;
  */
 
 public class ModelImplementation implements Model{
-    
+    /**
+     * Code the mothod declared on the interface model and return a string greet
+     * @return greet
+     */
     @Override
     public String getGreeting(){
         String greet="Hola Mundo";

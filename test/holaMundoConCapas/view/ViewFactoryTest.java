@@ -10,14 +10,14 @@ import static org.junit.Assert.*;
 
 
 /**
- *
- * @author 2dam
+ * Tests the ViewFactory
+ * @author Adrian Corral
  */
 public class ViewFactoryTest {
   
 
     /**
-     * Test of getView method, of class ViewFactory.
+     * Test of getView method, of class ViewFactory with a Not Null coincidence
      */
     @Test
     public void testGetView() {

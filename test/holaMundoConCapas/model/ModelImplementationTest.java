@@ -10,14 +10,16 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 
 /**
- *
- * @author 2dam
+ * Test the Model Implementation
+ * @author Adrian Corral
  */
 public class ModelImplementationTest {
     
-    public ModelImplementationTest() {
-    }
     private Model model;
+    
+    /**
+     * Set a Variable model created on the class a new Model Implementation
+     */
     @Before
     public void SetUp(){
         model=new ModelImplementation();

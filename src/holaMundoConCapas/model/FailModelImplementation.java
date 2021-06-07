@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author adrian
+ * @author adrian corral
  */
 public class FailModelImplementation implements Model{
     /**
