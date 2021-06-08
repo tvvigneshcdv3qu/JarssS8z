@@ -5,6 +5,7 @@
  */
 package holaMundoConCapas.view;
 
+import java.util.logging.Logger;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -19,7 +20,7 @@ import javafx.stage.WindowEvent;
  * @author Adrian Corral
  */
 public class FXMLDocumentController {
-    
+    private static final Logger LOGGER=Logger.getLogger(" holaMundoConCapas.view.FXMLDocumentController");
     @FXML
     private Label textoPositivo;
     
@@ -49,10 +50,12 @@ public class FXMLDocumentController {
      * @param root 
      */
     public void initStage(Parent root){
+        LOGGER.info("Starts the init of the window");
         Scene scene=new Scene(root);
         stage.setScene(scene);
         stage.setOnShowing(this::onWindowShowing);
         stage.show();
+        LOGGER.info("Ends the init of the window");
     }
 
     /**
